@@ -1,0 +1,4 @@
+RUN	trials.arrays	arrays	1697605925907	 	3.9.5
+USER	Initial Scenario	START	1697606056672
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'item_id' is defined 	1697606056770
+USER	Initial Scenario	END	1697606056777

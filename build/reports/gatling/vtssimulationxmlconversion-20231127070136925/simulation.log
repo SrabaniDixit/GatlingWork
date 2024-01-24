@@ -1,0 +1,38 @@
+RUN	VTSTrails.VTSSimulationXmlConversion	vtssimulationxmlconversion	1701068496925	 	3.9.5
+USER	Get Data From VTS	START	1701068502249
+REQUEST		Get VTS Data	1701068502244	1701068502902	OK	 
+REQUEST		Get VTS Data Redirect 1	1701068502911	1701068503231	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1701068504182
+REQUEST		Post VTS Data	1701068504184	1701068504492	OK	 
+REQUEST		Post VTS Data Redirect 1	1701068504492	1701068504803	OK	 
+REQUEST		Get VTS Data	1701068505814	1701068506121	OK	 
+REQUEST		Get VTS Data Redirect 1	1701068506121	1701068506429	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1701068506432
+REQUEST		Post VTS Data	1701068506433	1701068506740	OK	 
+REQUEST		Post VTS Data Redirect 1	1701068506740	1701068507049	OK	 
+REQUEST		Get VTS Data	1701068508059	1701068508367	OK	 
+REQUEST		Get VTS Data Redirect 1	1701068508368	1701068508675	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1701068508677
+REQUEST		Post VTS Data	1701068508678	1701068509014	OK	 
+REQUEST		Post VTS Data Redirect 1	1701068509015	1701068509322	OK	 
+REQUEST		Get VTS Data	1701068510338	1701068510653	OK	 
+REQUEST		Get VTS Data Redirect 1	1701068510653	1701068510961	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1701068510963
+REQUEST		Post VTS Data	1701068510964	1701068511271	OK	 
+REQUEST		Post VTS Data Redirect 1	1701068511272	1701068511581	OK	 
+REQUEST		Get VTS Data	1701068512595	1701068512902	OK	 
+REQUEST		Get VTS Data Redirect 1	1701068512902	1701068513210	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1701068513213
+REQUEST		Post VTS Data	1701068513213	1701068513520	OK	 
+REQUEST		Post VTS Data Redirect 1	1701068513521	1701068513830	OK	 
+REQUEST		Get VTS Data	1701068514837	1701068515144	OK	 
+REQUEST		Get VTS Data Redirect 1	1701068515144	1701068515452	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1701068515455
+REQUEST		Post VTS Data	1701068515455	1701068515762	OK	 
+REQUEST		Post VTS Data Redirect 1	1701068515763	1701068516070	OK	 
+REQUEST		Get VTS Data	1701068517078	1701068517387	OK	 
+REQUEST		Get VTS Data Redirect 1	1701068517388	1701068517696	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1701068517703
+REQUEST		Post VTS Data	1701068517703	1701068518012	OK	 
+REQUEST		Post VTS Data Redirect 1	1701068518013	1701068518323	OK	 
+USER	Get Data From VTS	END	1701068519339

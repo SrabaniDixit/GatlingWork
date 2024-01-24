@@ -1,0 +1,10 @@
+{
+  "simulation": "trials.readWholeColFromVTS",
+  "simulationId": "readwholecolfromvts-20231031123856452",
+  "start": 1698755940646,
+  "description": "",
+  "scenarios": ["Read whole col from VTS"],
+  "assertions": [
+
+  ]
+}

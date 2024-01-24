@@ -1,0 +1,10 @@
+{
+  "simulation": "Store_Order_Fulfillment_Flow",
+  "simulationId": "store-order-fulfillment-flow-20231128060000792",
+  "start": 1701151205700,
+  "description": "",
+  "scenarios": ["Initial scenario", "Store order flow"],
+  "assertions": [
+
+  ]
+}

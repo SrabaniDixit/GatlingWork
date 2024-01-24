@@ -1,0 +1,5 @@
+RUN	trials.arrays	arrays	1697526012469	 	3.9.5
+USER	Initial Scenario	END	1697526059122
+USER	Initial Scenario	START	1697526059122
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'item_id' is defined 	1697526060125
+USER	CDC Inv Adjustment	END	1697526060141

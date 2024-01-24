@@ -1,0 +1,10 @@
+{
+  "simulation": "ClickAndPick",
+  "simulationId": "clickandpick-20231130044930138",
+  "start": 1701319775037,
+  "description": "",
+  "scenarios": ["Initial scenario", "Click and Pick"],
+  "assertions": [
+
+  ]
+}

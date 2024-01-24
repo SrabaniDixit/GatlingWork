@@ -1,0 +1,4 @@
+RUN	DemoSimulation	demosimulation	1706009523049	 	3.9.5
+USER	Complete Scenario	START	1706009527172
+REQUEST		List all categories	1706009527012	1706009527933	KO	jsonPath($.[*].name).find.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+USER	Complete Scenario	END	1706009528010

@@ -1,0 +1,10 @@
+RUN	WOPubConsumeFlow	wopubconsumeflow	1698320372268	 	3.9.5
+USER	Initial Scenario	START	1698320376198
+USER	Initial Scenario	END	1698320376198
+USER	Update Work order queue in VTS	START	1698320378516
+REQUEST		Update WORK_ORDER_QUEUE in VTS	1698320378512	1698320378531	OK	 
+REQUEST		Update WORK_ORDER_QUEUE in VTS Redirect 1	1698320378559	1698320378583	OK	 
+USER	Update Work order queue in VTS	END	1698320378654
+ERROR	Update WORK_ORDER_QUEUE in VTS: Failed to build request: Attribute inputToVTS's value is null 	1698320473951
+USER	Update Work order queue in VTS	START	1698320473952
+USER	Update Work order queue in VTS	END	1698320473957

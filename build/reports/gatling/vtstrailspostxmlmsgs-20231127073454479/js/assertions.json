@@ -1,0 +1,10 @@
+{
+  "simulation": "VTSTrails.VTSTrailsPostXMLMsgs",
+  "simulationId": "vtstrailspostxmlmsgs-20231127073454479",
+  "start": 1701070499648,
+  "description": "",
+  "scenarios": ["Get Data From VTS"],
+  "assertions": [
+
+  ]
+}

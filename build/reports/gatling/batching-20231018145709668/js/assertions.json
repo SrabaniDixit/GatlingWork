@@ -1,0 +1,10 @@
+{
+  "simulation": "trials.Batching",
+  "simulationId": "batching-20231018145709668",
+  "start": 1697641118101,
+  "description": "",
+  "scenarios": ["Initial Scenario"],
+  "assertions": [
+
+  ]
+}

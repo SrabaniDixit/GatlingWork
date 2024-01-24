@@ -1,0 +1,89 @@
+
+plugins {
+    id 'java'
+    // The following line allows to load io.gatling.gradle plugin and directly apply it
+    id 'io.gatling.gradle' version '3.9.5.6'
+    id 'groovy'
+}
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+  implementation platform('software.amazon.awssdk:bom:2.20.160')
+  implementation 'software.amazon.awssdk:aws-core'
+  implementation 'software.amazon.awssdk:auth'
+  implementation 'software.amazon.awssdk:s3'
+  implementation 'org.zeroturnaround:zt-zip:1.16'
+  implementation 'javax.xml.bind:jaxb-api:2.3.1'
+  implementation 'org.yaml:snakeyaml:2.2'
+  gatling fileTree(dir: 'C:\\gatlingproject\\jars', includes:['*.jar'])
+  gatling group: 'com.jayway.jsonpath', name: 'json-path', version: '2.7.0'
+  //gatling group: 'org.apache.commons', name: 'commons-io', version: '2.6.0'
+  implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.4'
+  implementation group: 'org.json', name: 'json', version: '20231013'
+  //implementation group: 'org.apache.poi', name: 'poi', version: '4.1.2'
+
+  gatling group: 'com.jayway.jsonpath', name: 'json-path', version: '2.7.0'
+  gatling group: 'org.json', name: 'json', version: '20230618'
+  gatling group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+  gatling 'commons-io:commons-io:2.15.0'
+
+}
+
+//sourceCompatibility = JavaVersion.VERSION_17
+//targetCompatibility = JavaVersion.VERSION_17
+
+gatling {
+  // WARNING: options below only work when logback config file isn't provided
+  logLevel = 'WARN' // logback root level
+  logHttp = 'NONE' // set to 'ALL' for all HTTP traffic in TRACE, 'FAILURES' for failed HTTP traffic in DEBUG
+  enterprise {
+    // Enterprise Cloud (https://cloud.gatling.io/) configuration reference: https://gatling.io/docs/gatling/reference/current/extensions/gradle_plugin/#working-with-gatling-enterprise-cloud
+    // Enterprise Self-Hosted configuration reference: https://gatling.io/docs/gatling/reference/current/extensions/gradle_plugin/#working-with-gatling-enterprise-self-hosted
+  }
+
+  jvmArgs = ['-server', 
+            '-Xms1024M', 
+            '-Xmx2048M',
+            '-XX:+UseParallelGC',
+            '-XX:+HeapDumpOnOutOfMemoryError']
+
+
+  //simulations = {
+    //  include "**/ikea/*.java"
+   // }
+}
+
+
+task uploadLogs(type: UploadLogsTask, dependsOn: compileGatlingJava, group: 'utils'){
+  description 'Upload Gatling simulation logs to Nebula storage'
+}
+
+
+task downloadLogs(type: DownloaderTask, dependsOn: compileGatlingJava, group: 'utils'){
+  description 'Download Gatling log files to instance'
+}
+
+task buildReport(type: JavaExec, dependsOn: downloadLogs, group: 'utils') {
+  description 'Build the final consolidated Gatling report'
+
+  mainClass = 'io.gatling.app.Gatling'
+  classpath = sourceSets.gatling.runtimeClasspath
+  args = [
+          "-ro", "build/finalReport",
+          "-rf", ""
+  ]
+}
+
+task uploadFinalReport(type: UploadFinalReportTask, dependsOn: buildReport, group: 'utils') {
+  description 'Uploads the final report to Nebula'
+}
+
+task deleteLogs(type: DeleteLogsTask, dependsOn: uploadFinalReport, group: 'utils') {
+  description 'Deletes the old simulation files from Nebula storage'
+}
+
+tasks.withType(Test).configureEach {
+  jvmArgs = jvmArgs + ['--add-opens=java.base/java.util=ALL-UNNAMED']
+}

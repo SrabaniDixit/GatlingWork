@@ -1,0 +1,16 @@
+RUN	Store_Order_Fulfillment_Flow	store-order-fulfillment-flow	1701150979403	 	3.9.5
+USER	Initial scenario	START	1701150984302
+USER	Initial scenario	END	1701150984302
+USER	Store order flow	START	1701150985359
+REQUEST		Request_X:VTS_RetrieveColumn	1701150985355	1701150985925	OK	 
+REQUEST		Request_X:VTS_RetrieveColumn Redirect 1	1701150985934	1701150986237	OK	 
+REQUEST		send message to released for picking queue	1701150987796	1701150987796	OK	 
+REQUEST		send message to MHS picked queue	1701150988181	1701150988181	OK	 
+REQUEST		send msg to ready for dispatch queue	1701150989930	1701150989930	OK	 
+REQUEST		send msg to handed over to TSP queue	1701150990944	1701150990944	OK	 
+REQUEST		send msg2 to handed over to TSP queue	1701150990945	1701150990945	OK	 
+REQUEST		send msg to MHS Load distribution truck queue	1701150991259	1701150991259	OK	 
+REQUEST		send msg2 to MHS Load distribution truck queue	1701150991260	1701150991260	OK	 
+REQUEST		send msg to Delivered to customer queue	1701150992171	1701150992171	OK	 
+REQUEST		send msg2 to Delivered to customer queue	1701150992172	1701150992172	OK	 
+USER	Store order flow	END	1701150992178

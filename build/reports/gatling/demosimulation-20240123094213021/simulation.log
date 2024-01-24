@@ -1,0 +1,10 @@
+RUN	DemoSimulation	demosimulation	1706002933021	 	3.9.5
+USER	Complete Scenario	START	1706002936964
+REQUEST		List all categories	1706002936813	1706002937712	KO	jsonPath($.data[*].name).find.exists, found nothing
+ERROR	List all products: Failed to build request: No attribute named 'selectedCategory' is defined 	1706002937789
+ERROR	Update a product: Failed to build request: No attribute named 'selectedProduct' is defined 	1706002937790
+REQUEST		Get authentication token	1706002937794	1706002938121	OK	 
+ERROR	Create a product - 0: Failed to build request: No attribute named 'selectedCategory' is defined 	1706002938138
+ERROR	Create a product - 1: Failed to build request: No attribute named 'selectedCategory' is defined 	1706002938139
+ERROR	Create a product - 2: Failed to build request: No attribute named 'selectedCategory' is defined 	1706002938139
+USER	Complete Scenario	END	1706002938142

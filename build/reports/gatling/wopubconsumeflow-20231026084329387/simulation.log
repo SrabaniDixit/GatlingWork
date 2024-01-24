@@ -1,0 +1,8 @@
+RUN	WOPubConsumeFlow	wopubconsumeflow	1698309809387	 	3.9.5
+USER	Initial Scenario	END	1698309825787
+USER	Initial Scenario	START	1698309825803
+USER	get message from queue	END	1698309870846
+USER	get message from queue	START	1698309870846
+ERROR	Update WORK_ORDER_QUEUE in VTS: Failed to build request: Failed to build request: j.l.NullPointerException 	1698309871512
+USER	Update CDC Quantity in VTS	START	1698309871527
+USER	Update CDC Quantity in VTS	END	1698309871528

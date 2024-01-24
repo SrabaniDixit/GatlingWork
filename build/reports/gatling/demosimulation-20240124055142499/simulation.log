@@ -1,0 +1,7 @@
+RUN	DemoSimulation	demosimulation	1706075502499	 	3.9.5
+USER	Complete Scenario	START	1706075506969
+REQUEST		List all categories	1706075506750	1706075507668	OK	 
+REQUEST		List all products	1706075507723	1706075507981	OK	 
+REQUEST		Get authentication token	1706075507989	1706075508221	OK	 
+REQUEST		Update a product	1706075508228	1706075508462	KO	status.find.is(200), but actually found 400
+USER	Complete Scenario	END	1706075508480

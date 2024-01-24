@@ -1,0 +1,3 @@
+RUN	trials.xmlparser	xmlparser	1698386687208	 	3.9.5
+USER	test	END	1698386689883
+USER	test	START	1698386689880

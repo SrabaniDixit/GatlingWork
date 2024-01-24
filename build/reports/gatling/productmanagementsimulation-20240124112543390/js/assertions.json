@@ -1,0 +1,10 @@
+{
+  "simulation": "ProductManagementSimulation",
+  "simulationId": "productmanagementsimulation-20240124112543390",
+  "start": 1706095547647,
+  "description": "",
+  "scenarios": ["Complete Scenario"],
+  "assertions": [
+
+  ]
+}

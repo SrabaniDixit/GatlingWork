@@ -1,0 +1,5 @@
+RUN	DemoSimulation	demosimulation	1706067559157	 	3.9.5
+USER	Complete Scenario	START	1706067563865
+REQUEST		List all categories	1706067563617	1706067564587	OK	 
+REQUEST		List all products	1706067564653	1706067564990	KO	status.find.is(200), but actually found 404
+USER	Complete Scenario	END	1706067565020

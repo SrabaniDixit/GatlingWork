@@ -1,0 +1,10 @@
+{
+  "simulation": "trials.arrays",
+  "simulationId": "arrays-20231018064404468",
+  "start": 1697611532377,
+  "description": "",
+  "scenarios": ["Initial Scenario"],
+  "assertions": [
+
+  ]
+}

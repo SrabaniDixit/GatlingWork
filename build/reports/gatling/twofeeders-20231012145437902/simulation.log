@@ -1,0 +1,3 @@
+RUN	trials.twofeeders	twofeeders	1697122477902	 	3.9.5
+USER	foo	START	1697122480577
+USER	foo	END	1697122481116

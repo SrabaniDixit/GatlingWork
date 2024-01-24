@@ -1,0 +1,4 @@
+RUN	DemoSimulation	demosimulation	1706009247343	 	3.9.5
+USER	Complete Scenario	START	1706009251474
+REQUEST		List all categories	1706009251317	1706009252412	KO	jsonPath($.data[*].name).find.exists, found nothing
+USER	Complete Scenario	END	1706009252488

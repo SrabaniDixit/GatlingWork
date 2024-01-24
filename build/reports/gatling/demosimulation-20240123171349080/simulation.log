@@ -1,0 +1,6 @@
+RUN	DemoSimulation	demosimulation	1706030029080	 	3.9.5
+USER	Complete Scenario	START	1706030034234
+REQUEST		List category 1	1706030034064	1706030034961	KO	status.find.is(200), but actually found 404
+REQUEST		List category 2	1706030035022	1706030035262	KO	status.find.is(200), but actually found 404
+REQUEST		List category 3	1706030035266	1706030035511	KO	status.find.is(200), but actually found 404
+USER	Complete Scenario	END	1706030035517

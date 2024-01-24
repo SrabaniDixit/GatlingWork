@@ -1,0 +1,231 @@
+RUN	CDCInvAdj.CDCInvAdjustment	cdcinvadjustment	1696914743078	 	3.9.5
+USER	Initial Scenario	START	1696914790203
+REQUEST		GET CDC quantity from VTS	1696914790191	1696914790226	OK	 
+REQUEST		GET CDC quantity from VTS Redirect 1	1696914790260	1696914790273	OK	 
+USER	Initial Scenario	END	1696914790494
+USER	CDC Inv Adjustment	START	1696914791093
+USER	CDC Inv Adjustment	START	1696914791093
+USER	CDC Inv Adjustment	START	1696914791094
+USER	CDC Inv Adjustment	START	1696914791096
+USER	CDC Inv Adjustment	START	1696914791107
+REQUEST		request testing	1696914791182	1696914791182	OK	 
+REQUEST		request testing	1696914791185	1696914791185	OK	 
+REQUEST		request testing	1696914791186	1696914791186	OK	 
+REQUEST		request testing	1696914791195	1696914791195	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791275
+REQUEST		request testing	1696914791283	1696914791283	OK	 
+REQUEST		request testing	1696914791291	1696914791291	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791294
+REQUEST		request testing	1696914791295	1696914791295	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791304
+REQUEST		request testing	1696914791308	1696914791308	OK	 
+REQUEST		request testing	1696914791311	1696914791311	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791319
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791321
+REQUEST		request testing	1696914791321	1696914791321	OK	 
+REQUEST		request testing	1696914791323	1696914791323	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791325
+REQUEST		request testing	1696914791327	1696914791327	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791328
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791358
+REQUEST		request testing	1696914791372	1696914791372	OK	 
+REQUEST		request testing	1696914791377	1696914791377	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791407
+REQUEST		request testing	1696914791416	1696914791416	OK	 
+REQUEST		request testing	1696914791420	1696914791420	OK	 
+REQUEST		request testing	1696914791423	1696914791423	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791440
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791457
+REQUEST		request testing	1696914791462	1696914791462	OK	 
+REQUEST		request testing	1696914791469	1696914791469	OK	 
+REQUEST		request testing	1696914791471	1696914791471	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791478
+REQUEST		request testing	1696914791480	1696914791480	OK	 
+REQUEST		request testing	1696914791481	1696914791481	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791485
+REQUEST		request testing	1696914791486	1696914791486	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791488
+REQUEST		request testing	1696914791493	1696914791493	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791497
+REQUEST		request testing	1696914791498	1696914791498	OK	 
+REQUEST		request testing	1696914791499	1696914791499	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791507
+REQUEST		request testing	1696914791513	1696914791513	OK	 
+REQUEST		request testing	1696914791518	1696914791518	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791524
+REQUEST		request testing	1696914791526	1696914791526	OK	 
+REQUEST		request testing	1696914791532	1696914791532	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791535
+REQUEST		request testing	1696914791537	1696914791537	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791558
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791503
+REQUEST		request testing	1696914791693	1696914791693	OK	 
+REQUEST		request testing	1696914791694	1696914791694	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791696
+REQUEST		request testing	1696914791697	1696914791697	OK	 
+REQUEST		request testing	1696914791699	1696914791699	OK	 
+REQUEST		request testing	1696914791703	1696914791703	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791706
+REQUEST		request testing	1696914791709	1696914791709	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791711
+REQUEST		request testing	1696914791721	1696914791721	OK	 
+REQUEST		request testing	1696914791725	1696914791725	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791730
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791732
+REQUEST		request testing	1696914791734	1696914791734	OK	 
+REQUEST		request testing	1696914791734	1696914791734	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791737
+REQUEST		request testing	1696914791741	1696914791741	OK	 
+REQUEST		request testing	1696914791742	1696914791742	OK	 
+REQUEST		request testing	1696914791855	1696914791855	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791876
+REQUEST		request testing	1696914791951	1696914791951	OK	 
+REQUEST		request testing	1696914791957	1696914791957	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791971
+REQUEST		request testing	1696914791976	1696914791976	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914791992
+REQUEST		request testing	1696914791997	1696914791997	OK	 
+REQUEST		request testing	1696914792002	1696914792002	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792083
+REQUEST		request testing	1696914792086	1696914792086	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792100
+REQUEST		request testing	1696914792103	1696914792103	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792106
+REQUEST		request testing	1696914792110	1696914792110	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792115
+REQUEST		request testing	1696914792119	1696914792119	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792123
+REQUEST		request testing	1696914792129	1696914792129	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792132
+REQUEST		request testing	1696914792134	1696914792134	OK	 
+REQUEST		request testing	1696914792150	1696914792150	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792156
+REQUEST		request testing	1696914792163	1696914792163	OK	 
+REQUEST		request testing	1696914792166	1696914792166	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792171
+REQUEST		request testing	1696914792178	1696914792178	OK	 
+REQUEST		request testing	1696914792180	1696914792180	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792183
+REQUEST		request testing	1696914792184	1696914792184	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792188
+REQUEST		request testing	1696914792213	1696914792213	OK	 
+REQUEST		request testing	1696914792214	1696914792214	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792218
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792509
+REQUEST		request testing	1696914792513	1696914792513	OK	 
+REQUEST		request testing	1696914792516	1696914792516	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792517
+REQUEST		request testing	1696914792518	1696914792518	OK	 
+REQUEST		request testing	1696914792522	1696914792522	OK	 
+REQUEST		request testing	1696914792533	1696914792533	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792536
+REQUEST		request testing	1696914792539	1696914792539	OK	 
+REQUEST		request testing	1696914792543	1696914792543	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792545
+REQUEST		request testing	1696914792551	1696914792551	OK	 
+REQUEST		request testing	1696914792554	1696914792554	OK	 
+REQUEST		request testing	1696914792564	1696914792564	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792572
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792803
+REQUEST		request testing	1696914792804	1696914792804	OK	 
+REQUEST		request testing	1696914792807	1696914792807	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792568
+REQUEST		request testing	1696914792811	1696914792811	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792815
+REQUEST		request testing	1696914792817	1696914792817	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792819
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792819
+REQUEST		request testing	1696914792824	1696914792824	OK	 
+REQUEST		request testing	1696914792828	1696914792828	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792829
+REQUEST		request testing	1696914792832	1696914792832	OK	 
+REQUEST		request testing	1696914792833	1696914792833	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792835
+REQUEST		request testing	1696914792837	1696914792837	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792853
+REQUEST		request testing	1696914792860	1696914792860	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792865
+REQUEST		request testing	1696914792867	1696914792867	OK	 
+REQUEST		request testing	1696914792869	1696914792869	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792874
+REQUEST		request testing	1696914792877	1696914792877	OK	 
+REQUEST		request testing	1696914792881	1696914792881	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792883
+REQUEST		request testing	1696914792885	1696914792885	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792887
+REQUEST		request testing	1696914792891	1696914792891	OK	 
+REQUEST		request testing	1696914792896	1696914792896	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792898
+REQUEST		request testing	1696914792900	1696914792900	OK	 
+REQUEST		request testing	1696914792911	1696914792911	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792913
+REQUEST		request testing	1696914792915	1696914792915	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792916
+REQUEST		request testing	1696914792922	1696914792922	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792929
+REQUEST		request testing	1696914792930	1696914792930	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792930
+REQUEST		request testing	1696914792933	1696914792933	OK	 
+REQUEST		request testing	1696914792933	1696914792933	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792937
+REQUEST		request testing	1696914792937	1696914792937	OK	 
+REQUEST		request testing	1696914792941	1696914792941	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792942
+REQUEST		request testing	1696914792945	1696914792945	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792946
+REQUEST		request testing	1696914792947	1696914792947	OK	 
+REQUEST		request testing	1696914792948	1696914792948	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792949
+REQUEST		request testing	1696914792951	1696914792951	OK	 
+REQUEST		request testing	1696914792953	1696914792953	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792955
+REQUEST		request testing	1696914792958	1696914792958	OK	 
+REQUEST		request testing	1696914792971	1696914792971	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914792972
+REQUEST		request testing	1696914792974	1696914792974	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793084
+REQUEST		request testing	1696914793086	1696914793086	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793087
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793088
+REQUEST		request testing	1696914793090	1696914793090	OK	 
+REQUEST		request testing	1696914793093	1696914793093	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793107
+REQUEST		request testing	1696914793109	1696914793109	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793126
+REQUEST		request testing	1696914793128	1696914793128	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793132
+REQUEST		request testing	1696914793134	1696914793134	OK	 
+REQUEST		request testing	1696914793136	1696914793136	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793141
+REQUEST		request testing	1696914793142	1696914793142	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793151
+REQUEST		request testing	1696914793153	1696914793153	OK	 
+REQUEST		request testing	1696914793157	1696914793157	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793186
+REQUEST		request testing	1696914793190	1696914793190	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793198
+REQUEST		request testing	1696914793200	1696914793200	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793205
+REQUEST		request testing	1696914793211	1696914793211	OK	 
+REQUEST		request testing	1696914793215	1696914793215	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793220
+REQUEST		request testing	1696914793222	1696914793222	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793226
+REQUEST		request testing	1696914793228	1696914793228	OK	 
+REQUEST		request testing	1696914793234	1696914793234	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793240
+REQUEST		request testing	1696914793243	1696914793243	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793246
+REQUEST		request testing	1696914793248	1696914793248	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793249
+REQUEST		request testing	1696914793251	1696914793251	OK	 
+REQUEST		request testing	1696914793252	1696914793252	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793253
+REQUEST		request testing	1696914793257	1696914793257	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793258
+REQUEST		request testing	1696914793260	1696914793260	OK	 
+REQUEST		request testing	1696914793261	1696914793261	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793263
+REQUEST		request testing	1696914793265	1696914793265	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696914793268
+REQUEST		request testing	1696914793272	1696914793272	OK	 

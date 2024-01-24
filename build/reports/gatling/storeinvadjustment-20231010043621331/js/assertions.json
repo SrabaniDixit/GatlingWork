@@ -1,0 +1,10 @@
+{
+  "simulation": "StoreInvAdj.StoreInvAdjustment",
+  "simulationId": "storeinvadjustment-20231010043621331",
+  "start": 1696912585051,
+  "description": "",
+  "scenarios": ["Initial Scenario", "Update CDC Quantity in VTS"],
+  "assertions": [
+
+  ]
+}

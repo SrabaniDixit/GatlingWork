@@ -1,0 +1,10 @@
+{
+  "simulation": "ClickAndPick",
+  "simulationId": "clickandpick-20231129052143743",
+  "start": 1701235309322,
+  "description": "",
+  "scenarios": ["Initial scenario", "Store order flow"],
+  "assertions": [
+
+  ]
+}

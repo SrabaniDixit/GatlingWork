@@ -1,0 +1,6 @@
+RUN	DemoSimulation	demosimulation	1706073036874	 	3.9.5
+USER	Complete Scenario	START	1706073042163
+REQUEST		List all categories	1706073041925	1706073043086	OK	 
+REQUEST		List all products	1706073043153	1706073043489	OK	 
+ERROR	Update a product: Failed to build request: No attribute named 'authToken' is defined 	1706073043495
+USER	Complete Scenario	END	1706073043500

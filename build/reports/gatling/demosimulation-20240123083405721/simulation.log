@@ -1,0 +1,9 @@
+RUN	DemoSimulation	demosimulation	1705998845721	 	3.9.5
+USER	Complete Scenario	START	1705998849913
+REQUEST		List all categories	1705998849760	1705998850815	KO	jsonPath($.data[*]).find.exists, found nothing
+ERROR	List all products: Failed to build request: No attribute named 'selectedCategory' is defined 	1705998850876
+ERROR	Update a product: Failed to build request: No attribute named 'selectedProduct' is defined 	1705998850877
+REQUEST		Get authentication token	1705998850882	1705998851321	KO	status.find.is(200), but actually found 400
+ERROR	Create a product - Blue Glasses: Failed to build request: No attribute named 'authToken' is defined 	1705998851344
+ERROR	Create a product - Blue Glasses: Failed to build request: No attribute named 'authToken' is defined 	1705998851345
+USER	Complete Scenario	END	1705998851348

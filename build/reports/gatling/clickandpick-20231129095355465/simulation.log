@@ -1,0 +1,7 @@
+RUN	ClickAndPick	clickandpick	1701251635465	 	3.9.5
+USER	Initial scenario	END	1701251640689
+USER	Initial scenario	START	1701251640689
+ERROR	Request_X:VTS_RetrieveColumn: Failed to build request: Failed to build request: j.l.NullPointerException 	1701251641716
+ERROR	send message to released for picking queue: Failed to build request: j.l.RuntimeException: No attribute named 's_shipAdvNo' is defined 	1701251642663
+USER	Store order flow	END	1701251642670
+USER	Store order flow	START	1701251642670

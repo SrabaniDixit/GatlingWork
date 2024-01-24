@@ -1,0 +1,24 @@
+RUN	VTSTrails.VTSTrailsPostXMLMsgs	vtstrailspostxmlmsgs	1700637097982	 	3.9.5
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637103041
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700637103907
+ERROR	Post VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637103909
+USER	Get Data From VTS	START	1700637103914
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637104928
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700637104930
+ERROR	Post VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637104931
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637105942
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700637105944
+ERROR	Post VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637105946
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637106948
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700637106951
+ERROR	Post VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637106953
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637107969
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700637107970
+ERROR	Post VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637107971
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637108973
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700637108975
+ERROR	Post VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637108977
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637109989
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700637109993
+ERROR	Post VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700637109995
+USER	Get Data From VTS	END	1700637111012

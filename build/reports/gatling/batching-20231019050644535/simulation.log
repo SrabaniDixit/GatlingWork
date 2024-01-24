@@ -1,0 +1,4 @@
+RUN	trials.Batching	batching	1697692004535	 	3.9.5
+USER	Initial Scenario	START	1697692007304
+REQUEST		request testing	1697692007379	1697692007379	OK	 
+USER	Initial Scenario	END	1697692007394

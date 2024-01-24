@@ -1,0 +1,5 @@
+RUN	DemoSimulation	demosimulation	1706033242273	 	3.9.5
+USER	Complete Scenario	START	1706033246399
+REQUEST		List all categories	1706033246228	1706033247121	OK	 
+ERROR	List all products: Failed to build request: No attribute named 'selectedCategory' is defined 	1706033247180
+USER	Complete Scenario	END	1706033247184

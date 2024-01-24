@@ -1,0 +1,10 @@
+{
+  "simulation": "VTSTrails.VTSTrails",
+  "simulationId": "vtstrails-20231106080257317",
+  "start": 1699257781722,
+  "description": "",
+  "scenarios": ["Initial Scenario"],
+  "assertions": [
+
+  ]
+}

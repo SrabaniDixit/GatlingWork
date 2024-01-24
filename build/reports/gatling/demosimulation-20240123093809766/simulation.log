@@ -1,0 +1,9 @@
+RUN	DemoSimulation	demosimulation	1706002689766	 	3.9.5
+USER	Complete Scenario	START	1706002694903
+REQUEST		List all categories	1706002694742	1706002695859	KO	Check extractor resolution crashed: No attribute named 'selectedCategory' is defined
+ERROR	List all products: Failed to build request: No attribute named 'selectedCategory' is defined 	1706002695898
+ERROR	Update a product: Failed to build request: No attribute named 'selectedProduct' is defined 	1706002695900
+REQUEST		Get authentication token	1706002695906	1706002696260	KO	status.find.is(200), but actually found 400
+ERROR	Create a product - Red Glasses: Failed to build request: No attribute named 'authToken' is defined 	1706002696284
+ERROR	Create a product - Red Glasses: Failed to build request: No attribute named 'authToken' is defined 	1706002696285
+USER	Complete Scenario	END	1706002696289

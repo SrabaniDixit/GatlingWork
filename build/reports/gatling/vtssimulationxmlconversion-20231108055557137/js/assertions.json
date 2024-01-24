@@ -1,0 +1,10 @@
+{
+  "simulation": "VTSTrails.VTSSimulationXmlConversion",
+  "simulationId": "vtssimulationxmlconversion-20231108055557137",
+  "start": 1699422962699,
+  "description": "",
+  "scenarios": ["Get Data From VTS"],
+  "assertions": [
+
+  ]
+}

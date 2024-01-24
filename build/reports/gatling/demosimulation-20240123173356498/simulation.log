@@ -1,0 +1,6 @@
+RUN	DemoSimulation	demosimulation	1706031236498	 	3.9.5
+USER	Complete Scenario	START	1706031241089
+REQUEST		List all categories	1706031240921	1706031241804	KO	jsonPath($.length()).find.exists extraction crashed: '[?(' expected but '(' found
+REQUEST		List all categories	1706031241870	1706031242102	KO	jsonPath($.length()).find.exists extraction crashed: '[?(' expected but '(' found
+REQUEST		List all categories	1706031242107	1706031242344	KO	jsonPath($.length()).find.exists extraction crashed: '[?(' expected but '(' found
+USER	Complete Scenario	END	1706031242349

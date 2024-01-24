@@ -1,0 +1,6 @@
+RUN	DemoSimulation	demosimulation	1706030098056	 	3.9.5
+USER	Complete Scenario	START	1706030102359
+REQUEST		List category	1706030102178	1706030103047	KO	jsonPath($.name).find.exists, found nothing
+REQUEST		List category	1706030103100	1706030103332	KO	jsonPath($.name).find.exists, found nothing
+REQUEST		List category	1706030103338	1706030103588	KO	jsonPath($.name).find.exists, found nothing
+USER	Complete Scenario	END	1706030103594

@@ -1,0 +1,5 @@
+RUN	ProductManagementSimulation	productmanagementsimulation	1706094996432	 	3.9.5
+USER	Complete Scenario	START	1706095001108
+REQUEST		List all categories	1706095000908	1706095001821	OK	 
+REQUEST		Get authentication token	1706095001886	1706095002124	OK	 
+USER	Complete Scenario	END	1706095002130

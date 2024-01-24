@@ -1,0 +1,6 @@
+RUN	VTSTrails.VTSSimulation	vtssimulation	1699288839270	 	3.9.5
+USER	Initial Scenario	END	1699288843370
+USER	Initial Scenario	START	1699288843371
+ERROR	Get VTS Data: Failed to build request: No attribute named 'requestBody' is defined 	1699288843423
+USER	VTS Data Scenario	START	1699288843425
+USER	VTS Data Scenario	END	1699288843425

@@ -1,0 +1,24 @@
+RUN	VTSTrails.VTSTrailsPostXMLMsgs	vtstrailspostxmlmsgs	1700636136180	 	3.9.5
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700636141420
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700636142334
+ERROR	Post VTS Data: Failed to build request: No attribute named 'vts_URL' is defined 	1700636142337
+USER	Get Data From VTS	START	1700636142339
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700636143355
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700636143357
+ERROR	Post VTS Data: Failed to build request: No attribute named 'vts_URL' is defined 	1700636143357
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700636144364
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700636144365
+ERROR	Post VTS Data: Failed to build request: No attribute named 'vts_URL' is defined 	1700636144365
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700636145373
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700636145374
+ERROR	Post VTS Data: Failed to build request: No attribute named 'vts_URL' is defined 	1700636145374
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700636146380
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700636146382
+ERROR	Post VTS Data: Failed to build request: No attribute named 'vts_URL' is defined 	1700636146382
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700636147388
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700636147390
+ERROR	Post VTS Data: Failed to build request: No attribute named 'vts_URL' is defined 	1700636147390
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1700636148397
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700636148398
+ERROR	Post VTS Data: Failed to build request: No attribute named 'vts_URL' is defined 	1700636148398
+USER	Get Data From VTS	END	1700636149416

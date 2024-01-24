@@ -1,0 +1,4 @@
+RUN	VTSTrails.VTSJX	vtsjx	1700631057710	 	3.9.5
+USER	Initial Scenario	START	1700631061756
+REQUEST		Get VTS Data	1700631061748	1700631062695	KO	jsonPath($.data.VTS_Trails).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 5]
+USER	Initial Scenario	END	1700631062763

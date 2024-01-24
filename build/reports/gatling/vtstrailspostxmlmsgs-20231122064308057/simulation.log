@@ -1,0 +1,31 @@
+RUN	VTSTrails.VTSTrailsPostXMLMsgs	vtstrailspostxmlmsgs	1700635388057	 	3.9.5
+USER	Get Data From VTS	START	1700635393712
+REQUEST		Get VTS Data	1700635393705	1700635394313	OK	 
+REQUEST		Get VTS Data Redirect 1	1700635394325	1700635394609	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700635395536
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700635395539
+REQUEST		Get VTS Data	1700635396549	1700635396830	OK	 
+REQUEST		Get VTS Data Redirect 1	1700635396831	1700635397110	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700635397114
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700635397114
+REQUEST		Get VTS Data	1700635398123	1700635398403	OK	 
+REQUEST		Get VTS Data Redirect 1	1700635398404	1700635398684	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700635398687
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700635398687
+REQUEST		Get VTS Data	1700635399696	1700635399974	OK	 
+REQUEST		Get VTS Data Redirect 1	1700635399975	1700635400254	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700635400258
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700635400258
+REQUEST		Get VTS Data	1700635401262	1700635401542	OK	 
+REQUEST		Get VTS Data Redirect 1	1700635401543	1700635401825	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700635401829
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700635401829
+REQUEST		Get VTS Data	1700635402835	1700635403116	OK	 
+REQUEST		Get VTS Data Redirect 1	1700635403116	1700635403400	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700635403403
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700635403403
+REQUEST		Get VTS Data	1700635404411	1700635404689	OK	 
+REQUEST		Get VTS Data Redirect 1	1700635404689	1700635404969	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700635404971
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700635404971
+USER	Get Data From VTS	END	1700635405978

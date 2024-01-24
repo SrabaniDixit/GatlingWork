@@ -1,0 +1,31 @@
+RUN	VTSTrails.VTSTrailsPostXMLMsgs	vtstrailspostxmlmsgs	1700638992608	 	3.9.5
+USER	Get Data From VTS	START	1700638997769
+REQUEST		Get VTS Data	1700638997762	1700638998388	OK	 
+REQUEST		Get VTS Data Redirect 1	1700638998396	1700638998718	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1700638999651
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700638999652
+REQUEST		Get VTS Data	1700639000664	1700639000957	OK	 
+REQUEST		Get VTS Data Redirect 1	1700639000957	1700639001252	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1700639001255
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700639001256
+REQUEST		Get VTS Data	1700639002267	1700639002559	OK	 
+REQUEST		Get VTS Data Redirect 1	1700639002560	1700639002854	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1700639002858
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700639002858
+REQUEST		Get VTS Data	1700639003868	1700639004160	OK	 
+REQUEST		Get VTS Data Redirect 1	1700639004161	1700639004453	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1700639004456
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700639004456
+REQUEST		Get VTS Data	1700639005462	1700639005754	OK	 
+REQUEST		Get VTS Data Redirect 1	1700639005755	1700639006048	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1700639006051
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700639006051
+REQUEST		Get VTS Data	1700639007067	1700639007360	OK	 
+REQUEST		Get VTS Data Redirect 1	1700639007360	1700639007653	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1700639007656
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700639007656
+REQUEST		Get VTS Data	1700639008662	1700639008955	OK	 
+REQUEST		Get VTS Data Redirect 1	1700639008956	1700639009249	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: No attribute named 'work_order_no' is defined 	1700639009253
+ERROR	Post VTS Data: Failed to build request: No attribute named 'xmlContent' is defined 	1700639009253
+USER	Get Data From VTS	END	1700639010266

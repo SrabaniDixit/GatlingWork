@@ -1,0 +1,10 @@
+RUN	ClickAndPick	clickandpick	1701321010906	 	3.9.5
+USER	Initial scenario	END	1701321015790
+USER	Initial scenario	START	1701321015790
+USER	Click and Pick	START	1701321016831
+REQUEST		Request_X:VTS_RetrieveColumn	1701321016827	1701321017389	OK	 
+REQUEST		Request_X:VTS_RetrieveColumn Redirect 1	1701321017399	1701321017682	OK	 
+REQUEST		send message to released for picking queue	1701321018893	1701321018893	OK	 
+REQUEST		send msg to ready for dispatch queue	1701321019184	1701321019184	OK	 
+REQUEST		send msg to ready for dispatch queue	1701321019465	1701321019465	OK	 
+USER	Click and Pick	END	1701321019468

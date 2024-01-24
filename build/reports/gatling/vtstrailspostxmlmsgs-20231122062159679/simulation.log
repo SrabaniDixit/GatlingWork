@@ -1,0 +1,38 @@
+RUN	VTSTrails.VTSTrailsPostXMLMsgs	vtstrailspostxmlmsgs	1700634119679	 	3.9.5
+USER	Get Data From VTS	START	1700634124984
+REQUEST		Get VTS Data	1700634124980	1700634125618	OK	 
+REQUEST		Get VTS Data Redirect 1	1700634125635	1700634125939	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700634126882
+REQUEST		Post VTS Data	1700634126884	1700634127189	OK	 
+REQUEST		Post VTS Data Redirect 1	1700634127191	1700634127484	OK	 
+REQUEST		Get VTS Data	1700634128496	1700634128787	OK	 
+REQUEST		Get VTS Data Redirect 1	1700634128788	1700634129080	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700634129083
+REQUEST		Post VTS Data	1700634129084	1700634129377	OK	 
+REQUEST		Post VTS Data Redirect 1	1700634129378	1700634129672	OK	 
+REQUEST		Get VTS Data	1700634130680	1700634130973	OK	 
+REQUEST		Get VTS Data Redirect 1	1700634130974	1700634131265	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700634131269
+REQUEST		Post VTS Data	1700634131270	1700634131561	OK	 
+REQUEST		Post VTS Data Redirect 1	1700634131562	1700634131855	OK	 
+REQUEST		Get VTS Data	1700634132867	1700634133158	OK	 
+REQUEST		Get VTS Data Redirect 1	1700634133158	1700634133451	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700634133454
+REQUEST		Post VTS Data	1700634133455	1700634133752	OK	 
+REQUEST		Post VTS Data Redirect 1	1700634133753	1700634134046	OK	 
+REQUEST		Get VTS Data	1700634135063	1700634135362	OK	 
+REQUEST		Get VTS Data Redirect 1	1700634135363	1700634135654	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700634135658
+REQUEST		Post VTS Data	1700634135659	1700634135965	OK	 
+REQUEST		Post VTS Data Redirect 1	1700634135967	1700634136261	OK	 
+REQUEST		Get VTS Data	1700634137267	1700634137560	OK	 
+REQUEST		Get VTS Data Redirect 1	1700634137560	1700634137854	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700634137858
+REQUEST		Post VTS Data	1700634137859	1700634138152	OK	 
+REQUEST		Post VTS Data Redirect 1	1700634138153	1700634138467	OK	 
+REQUEST		Get VTS Data	1700634139478	1700634139770	OK	 
+REQUEST		Get VTS Data Redirect 1	1700634139771	1700634140064	OK	 
+ERROR	request testing: Failed to build request: j.l.RuntimeException: Resource PayloadTemplate/VTS_Trails.xml not found 	1700634140070
+REQUEST		Post VTS Data	1700634140073	1700634140365	OK	 
+REQUEST		Post VTS Data Redirect 1	1700634140366	1700634140663	OK	 
+USER	Get Data From VTS	END	1700634141671

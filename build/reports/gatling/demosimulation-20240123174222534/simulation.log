@@ -1,0 +1,4 @@
+RUN	DemoSimulation	demosimulation	1706031742534	 	3.9.5
+USER	Complete Scenario	START	1706031747817
+REQUEST		List all categories	1706031747648	1706031748532	OK	 
+USER	Complete Scenario	END	1706031748595

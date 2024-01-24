@@ -1,0 +1,11 @@
+RUN	DemoSimulation	demosimulation	1706087865689	 	3.9.5
+USER	Complete Scenario	START	1706087872264
+REQUEST		List all categories	1706087871673	1706087873163	OK	 
+REQUEST		List all products	1706087873311	1706087873552	OK	 
+REQUEST		Get authentication token	1706087873563	1706087873825	OK	 
+REQUEST		Get Product Details Before Update	1706087873841	1706087874081	OK	 
+REQUEST		Update a product	1706087874089	1706087874344	OK	 
+ERROR	Create a product - 0: Failed to build request: No attribute named 'timestamp' is defined 	1706087874356
+ERROR	Create a product - 1: Failed to build request: No attribute named 'timestamp' is defined 	1706087874359
+ERROR	Create a product - 2: Failed to build request: No attribute named 'timestamp' is defined 	1706087874360
+USER	Complete Scenario	END	1706087874371

@@ -1,0 +1,6 @@
+RUN	DemoSimulation	demosimulation	1706005702894	 	3.9.5
+USER	Complete Scenario	START	1706005707112
+REQUEST		List all categories	1706005706955	1706005707863	KO	jsonPath($.[*].name).find.exists extraction crashed: string matching regex '[^*.\[\]()=!<>\s]+' expected but '[' found
+ERROR	List all products: Failed to build request: No attribute named 'selectedCategory' is defined 	1706005707932
+REQUEST		Get authentication token	1706005707938	1706005708259	OK	 
+USER	Complete Scenario	END	1706005708271

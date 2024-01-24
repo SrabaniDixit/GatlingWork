@@ -1,0 +1,5 @@
+RUN	trials.readWholeColFromVTS	readwholecolfromvts	1698676592376	 	3.9.5
+USER	Read whole col from VTS	START	1698676596078
+REQUEST		Update CDC Quantity in VTS	1698676596066	1698676596092	OK	 
+REQUEST		Update CDC Quantity in VTS Redirect 1	1698676596118	1698676596152	OK	 
+USER	Read whole col from VTS	END	1698676596176

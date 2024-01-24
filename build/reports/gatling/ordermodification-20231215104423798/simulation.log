@@ -1,0 +1,104 @@
+RUN	VTSTrails.OrderModification	ordermodification	1702637063798	 	3.9.5
+USER	Initial Scenario	START	1702637068157
+REQUEST		Request_X:VTS_GetColumSize	1702637068149	1702637068797	OK	 
+REQUEST		Request_X:VTS_GetColumSize Redirect 1	1702637068805	1702637069128	OK	 
+USER	Initial Scenario	END	1702637069184
+USER	Retrieve order scenario	START	1702637070333
+REQUEST		LoginAPI	1702637070089	1702637070431	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637070500	1702637071124	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637071125	1702637071437	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+REQUEST		ModifyOrderSyncAPI	1702637071483	1702637071885	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637071898	1702637071898	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637071915	1702637071915	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1702637071943
+USER	Retrieve order scenario	START	1702637081095
+REQUEST		LoginAPI	1702637081093	1702637081136	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637081139	1702637081777	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637081778	1702637082122	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637082128
+USER	Retrieve order scenario	START	1702637092082
+REQUEST		LoginAPI	1702637092081	1702637092129	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637092131	1702637092779	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637092780	1702637093091	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637093097
+USER	Retrieve order scenario	START	1702637104090
+REQUEST		LoginAPI	1702637104088	1702637104138	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637104140	1702637104765	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637104766	1702637105092	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637105099
+USER	Retrieve order scenario	START	1702637115084
+REQUEST		LoginAPI	1702637115083	1702637115128	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637115130	1702637115738	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637115738	1702637116044	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637116048
+USER	Retrieve order scenario	START	1702637127088
+REQUEST		LoginAPI	1702637127088	1702637127147	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637127148	1702637127805	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637127805	1702637128130	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637128134
+USER	Retrieve order scenario	START	1702637138089
+REQUEST		LoginAPI	1702637138087	1702637138140	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637138142	1702637138759	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637138760	1702637139070	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637139075
+USER	Retrieve order scenario	START	1702637150090
+REQUEST		LoginAPI	1702637150089	1702637150132	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637150134	1702637150778	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637150779	1702637151100	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637151105
+USER	Retrieve order scenario	START	1702637161091
+REQUEST		LoginAPI	1702637161090	1702637161138	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637161140	1702637161764	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637161764	1702637162076	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+REQUEST		ModifyOrderSyncAPI	1702637162090	1702637162156	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637162163	1702637162163	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637162172	1702637162172	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1702637162179
+USER	Retrieve order scenario	START	1702637172088
+REQUEST		LoginAPI	1702637172085	1702637172145	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637172147	1702637172789	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637172790	1702637173105	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637173114
+USER	Retrieve order scenario	START	1702637184092
+REQUEST		LoginAPI	1702637184091	1702637184147	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637184150	1702637184802	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637184803	1702637185130	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637185138
+USER	Retrieve order scenario	START	1702637195083
+REQUEST		LoginAPI	1702637195081	1702637195136	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637195138	1702637195755	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637195756	1702637196064	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637196072
+USER	Retrieve order scenario	START	1702637207090
+REQUEST		LoginAPI	1702637207087	1702637207146	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637207149	1702637207759	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637207760	1702637208065	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637208074
+USER	Retrieve order scenario	START	1702637218089
+REQUEST		LoginAPI	1702637218087	1702637218138	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637218141	1702637218746	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637218747	1702637219049	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+REQUEST		ModifyOrderSyncAPI	1702637219054	1702637219107	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637219118	1702637219119	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637219133	1702637219133	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1702637219144
+USER	Retrieve order scenario	START	1702637230088
+REQUEST		LoginAPI	1702637230087	1702637230131	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637230132	1702637230734	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637230735	1702637231036	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+REQUEST		ModifyOrderSyncAPI	1702637231041	1702637231092	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637231098	1702637231098	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637231107	1702637231107	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+USER	Retrieve order scenario	END	1702637231112
+USER	Retrieve order scenario	START	1702637241089
+REQUEST		LoginAPI	1702637241089	1702637241130	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637241132	1702637241748	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637241748	1702637242053	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+USER	Retrieve order scenario	END	1702637242057
+USER	Retrieve order scenario	START	1702637252085
+REQUEST		LoginAPI	1702637252085	1702637252119	OK	 
+REQUEST		Request_X:VTS_QueryColumn	1702637252120	1702637252728	OK	 
+REQUEST		Request_X:VTS_QueryColumn Redirect 1	1702637252729	1702637253034	KO	jsonPath($.data.ReadyToAssignHold_Orders).find.exists, found nothing
+REQUEST		ModifyOrderSyncAPI	1702637253038	1702637253094	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637253099	1702637253099	KO	j.n.UnknownHostException: pp5eusomapp.ikeadt.com
+REQUEST		ModifyOrderSyncAPI	1702637253106	1702637253106	KO	

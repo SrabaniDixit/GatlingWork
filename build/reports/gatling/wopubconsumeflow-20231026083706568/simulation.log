@@ -1,0 +1,8 @@
+RUN	WOPubConsumeFlow	wopubconsumeflow	1698309426568	 	3.9.5
+USER	Initial Scenario	END	1698309430477
+USER	Initial Scenario	START	1698309430479
+USER	get message from queue	START	1698309432487
+USER	get message from queue	END	1698309432487
+ERROR	Update CDC Quantity in VTS: Failed to build request: Failed to build request: j.l.NullPointerException 	1698309433452
+USER	Update CDC Quantity in VTS	START	1698309433464
+USER	Update CDC Quantity in VTS	END	1698309433465

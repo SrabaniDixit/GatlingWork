@@ -1,0 +1,13 @@
+RUN	CDCInvAdj.CDCInvAdjustment	cdcinvadjustment	1696998193270	 	3.9.5
+USER	Initial Scenario	START	1696998326066
+REQUEST		GET CDC quantity from VTS	1696998326020	1696998326101	OK	 
+REQUEST		GET CDC quantity from VTS Redirect 1	1696998326131	1696998326185	OK	 
+USER	Initial Scenario	END	1696998326362
+USER	CDC Inv Adjustment	START	1696998326696
+REQUEST		request testing	1696998326766	1696998326766	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696998326931
+REQUEST		request testing	1696998327203	1696998327203	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696998327219
+REQUEST		request testing	1696998327500	1696998327500	OK	 
+ERROR	request testing: Failed to build request: j.j.JMSSecurityException: Access denied to resource: type=<jms>, application=SOMJMSSystemResource, destinationType=queue, resource=SOM_IN_INVENTORY_ADJUST_QUEUE, action=send 	1696998327513
+REQUEST		request testing	1696998328731	1696998328731	OK	 

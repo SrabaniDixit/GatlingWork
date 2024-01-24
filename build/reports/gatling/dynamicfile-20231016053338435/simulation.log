@@ -1,0 +1,3 @@
+RUN	trials.dynamicfile	dynamicfile	1697434418435	 	3.9.5
+USER	foo	START	1697434421072
+USER	foo	END	1697434421088

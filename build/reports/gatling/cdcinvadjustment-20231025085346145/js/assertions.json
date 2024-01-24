@@ -1,0 +1,10 @@
+{
+  "simulation": "CDCInvAdj.CDCInvAdjustment",
+  "simulationId": "cdcinvadjustment-20231025085346145",
+  "start": 1698224115122,
+  "description": "",
+  "scenarios": ["Initial Scenario", "CDC Inv Adjustment"],
+  "assertions": [
+
+  ]
+}

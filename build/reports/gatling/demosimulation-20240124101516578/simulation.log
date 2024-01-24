@@ -1,0 +1,11 @@
+RUN	DemoSimulation	demosimulation	1706091316578	 	3.9.5
+USER	Complete Scenario	START	1706091321362
+REQUEST		List all categories	1706091321107	1706091322147	OK	 
+REQUEST		List all products	1706091322191	1706091322552	OK	 
+REQUEST		Get authentication token	1706091322562	1706091322857	OK	 
+REQUEST		Get Product Details Before Update	1706091322863	1706091323091	OK	 
+REQUEST		Update a product	1706091323099	1706091323369	OK	 
+ERROR	Create a product - 0: Failed to build request: Resource path/to/your/requestTemplate.json not found 	1706091323378
+ERROR	Create a product - 1: Failed to build request: Resource path/to/your/requestTemplate.json not found 	1706091323379
+ERROR	Create a product - 2: Failed to build request: Resource path/to/your/requestTemplate.json not found 	1706091323380
+USER	Complete Scenario	END	1706091323384

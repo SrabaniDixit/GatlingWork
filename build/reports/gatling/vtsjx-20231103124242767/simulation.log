@@ -1,0 +1,4 @@
+RUN	VTSTrails.VTSJX	vtsjx	1699015362767	 	3.9.5
+ERROR	Get VTS Data: Failed to build request: Failed to build request: j.l.NullPointerException 	1699015367097
+USER	Initial Scenario	END	1699015367103
+USER	Initial Scenario	START	1699015367104
