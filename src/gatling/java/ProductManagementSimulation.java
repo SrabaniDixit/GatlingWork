@@ -39,7 +39,6 @@ public class ProductManagementSimulation extends Simulation {
         String selectedCategory= "";
         if (!allCategories.isEmpty()) {
              selectedCategory = allCategories.get(new Random().nextInt(allCategories.size()));
-            //session.set("selectedCategory", selectedCategory);
             System.out.println("Selected category id: " + selectedCategory);
         } else {
             System.err.println("No categories found.");
@@ -70,18 +69,42 @@ public class ProductManagementSimulation extends Simulation {
                     })
     );
 
-    public ChainBuilder selectRandomProduct = exec(session -> {
-        List<String> allProducts = session.get("allProductsId");
-        String selectedProduct= "";
-        if (!allProducts.isEmpty()) {
-            selectedProduct = allProducts.get(new Random().nextInt(allProducts.size()));
-            //session.set("selectedCategory", selectedCategory);
-            System.out.println("Selected product Id: " + selectedProduct);
-        } else {
-            System.err.println("No product found.");
-        }
-        return session.set("selectedProduct", selectedProduct);
+    public ChainBuilder selectRandomProduct = doIf(session -> session.contains("allProductsId")).then(
+            exec(session -> {
+                List<String> allProducts = session.get("allProductsId");
+                String selectedProduct = "";
+                if (!allProducts.isEmpty()) {
+                    selectedProduct = allProducts.get(new Random().nextInt(allProducts.size()));
+                    System.out.println("Selected product Id: " + selectedProduct);
+                } else {
+                    System.err.println("No products found.");
+                }
+                return session.set("selectedProduct", selectedProduct);
+            })
+    ).exec(
+            http("Get a selected product")
+                    .get(session -> "/product/" + session.get("selectedProduct"))
+                    .check(status().is(200))
+                    .check(jsonPath("$.name").saveAs("selectedProductName"))
+                    .check(jsonPath("$.description").saveAs("selectedProductDescription"))
+                    .check(jsonPath("$.image").saveAs("selectedProductImage"))
+                    .check(jsonPath("$.price").saveAs("selectedProductPrice"))
+    ).exec(session -> {
+        String selectedProductName = session.get("selectedProductName");
+        String selectedProductDescription = session.get("selectedProductDescription");
+        String selectedProductImage = session.get("selectedProductImage");
+        String selectedProductPrice = session.get("selectedProductPrice");
+
+        System.out.println("Selected Product Details:");
+        System.out.println("  Name: " + selectedProductName);
+        System.out.println("  Description: " + selectedProductDescription);
+        System.out.println("  Image: " + selectedProductImage);
+        System.out.println("  Price: " + selectedProductPrice);
+
+        return session;
     });
+
+
     public ChainBuilder updateProduct = doIf(session -> session.contains("selectedProduct")).then(
             exec(session -> {
 
@@ -90,6 +113,7 @@ public class ProductManagementSimulation extends Simulation {
                 return session.set("url", url);
             })
                     .exec(
+
                             http("Get Product Details Before Update")
                                     .get(session -> "/product/" + session.get("selectedProduct"))
                                     .header("Authorization", "Bearer ${authToken}")
@@ -206,6 +230,7 @@ public class ProductManagementSimulation extends Simulation {
 
     public ScenarioBuilder scn = scenario("Complete Scenario")
             .exec(listofcategories)
+          //  .pause(2)
             .exec(selectRandomCategory)
             .exec(listofproducts)
             .exec(selectRandomProduct)
